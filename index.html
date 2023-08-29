@@ -1,0 +1,595 @@
+
+<!-- Instruktion til webbrowser om at vi kører HTML5 -->
+<!DOCTYPE html>
+
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
+<head>
+	<!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+	<meta charset="utf-8">
+
+	<!-- Titel som ses oppe i browserens tab mv. -->
+	<title>Portofolio</title>
+
+	<!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+	<meta name="robots" content="All">
+	<meta name="author" content="Udgiver">
+	<meta name="copyright" content="Information om copyright">
+
+	<!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="css/mmdgrid.css" rel="stylesheet" type="text/css">
+
+	<!-- Fonts -->
+	<script src="https://kit.fontawesome.com/9007da6538.js" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+	<!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500&family=Gwendolyn:wght@700&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" href="images/shemesh_logo.png">
+
+<!-- i <body> har man alt indhold på siden som brugeren kan se -->
+<body>
+
+<!-- header -->
+<div class="flex-container container-fluid">
+	<div class="row bg-primary">
+
+
+		<div class=" mb-5">
+
+			<div class="nav">
+
+				<div class="logo p-3">
+					<img src="images/shemesh_logo.png" alt="logo" style="width:80px;height:80px;">
+				</div>
+
+				<div class="links">
+					<a class="active contactme" href="#contact">Contact me</a>
+					<a href="#logodesign">Logo Design</a>
+					<a href="#webdesign">Web Design</a>
+					<a href="#illustrations">Illustrations</a>
+					<a href="#services">Services</a>
+					<a href="#about">About</a>
+
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+
+		<!--page content-->
+
+
+			<!--Hello-->
+			<div class="row bg-Beige text-charcoal">
+
+
+
+							<div class = "hellotxt col text-center">
+									<h1 class="mt-5 mb-1 mx-5">hello.</h1>
+									<p class="mb-5 mx-5">welcome to my portofolio</p>
+							</div>.
+
+
+
+			</div>
+
+			<!--About me-->
+			<div class="row bg-charcoal text-primary" id="about">
+
+				<div class="p-5 text-end">
+					<h1> WHO AM I </h1>
+					<hr/>
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="meimg">
+						<picture>
+							<source
+									srcset="images/profilepic.png"
+									media="(min-width: 500px)"
+							/>
+							<img
+									src="images/profilepic2.png"
+									alt="Baby Sleeping"
+							/>
+						</picture>
+					</div>
+				</div>
+
+
+				<div class="metxt col text-sm-center text-md-end">
+					<h1 class="mt-5 mb-1 mx-5"> I'm behind<br> SHEMESH
+					</h1>
+					<h3 class="mt-2 mx-5">Have a scroll around, and if you like what you see you can choose to contact me so I can meet you and your needs too!</h3>
+					<p class="mt-4 mx-5">I am a Multimedia and Design Student at Zealand, Denmark, where I am in the process of learning all the skills that will assist you one day.
+            <br><br>Amongst other things, I am learning Adobe programmes, Communication, Project Management, SoMe managing, marketing, Coding, and so much more!
+            <br><br>Bonus: I have some experience in my back pocket from a previous education in Spain; and yes! I do speak Spanish. In addition, I speak English and Danish, which means that I can also help you, who wants to communicate with an international audience.
+            <br><br> In addition to my language skills, I am keen on visualizing designs using Photoshop and Illustrator, and will continue to look forward to making your ideas a reality!</p>
+
+
+
+				</div>
+			</div>
+
+			<!--Services-->
+			<div class="row bg-Beige text-primary" id="services">
+
+					<div class="p-5 text-end">
+						<h1> SERVICES </h1>
+						<hr/>
+					</div>
+
+				<div class="servicecontainer">
+				<div class="row">
+				<div class="col-md-5 m-2 container d-inline">
+					<h1>Illustrations and Iconography</h1>
+				</div>
+					<div class="col-md-5 m-2 container d-inline">
+						<h1>Website Design</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5 m-2 container d-inline">
+						<h1>Branding and Identity</h1>
+					</div>
+					<div class="col-md-5 m-2 container d-inline">
+						<h1>Social Media</h1>
+					</div>
+				</div>
+				</div>
+
+			</div>
+
+			<!-- Illustrations -->
+
+			<div class="row bg-primary text-charcoal" id="illustrations">
+
+				<div class="p-5 text-end">
+					<h1> ILLUSTRATIONS </h1>
+					<hr/>
+				</div>
+
+				<div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="cards-wrapper">
+								<div class="card">
+
+									<div class="image-wrapper">
+									<img src="images/fruits.png" alt="citrus fruit illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Citrus</h5>
+										<p class="card-text">Illustration of different citrus fruits. This is a personal project created in Illustrator in 2022.</p>
+										<a href="https://www.instagram.com/p/CXFA5ExsWcW/" target="_blank" class="btn btn-primary">Instagram</a>
+									</div>
+								</div>
+								<div class="card">
+
+									<div class="image-wrapper">
+									<img src="images/samaramorgan.png" alt="samara morgan illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Samara Morgan</h5>
+										<p class="card-text">Illustration of Samara Morgan from classic horror movie "The Ring", transfered from ink and paper to Illustrator.
+											This is a personal project created in 2021.</p>
+										<a href="https://www.instagram.com/p/CXJCVgtsnEJ/" target="_blank" class="btn btn-primary">Instagram</a>
+									</div>
+								</div>
+								<div class="card">
+
+									<div class="image-wrapper">
+									<img src="images/palmplant.png" alt="palm plant illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Palm Plant</h5>
+										<p class="card-text">Part of a series of illustrated plants for a personal project, created in Illustrator in 2021.</p>
+										<a href="https://www.instagram.com/p/CXCpKaxKLfm/" target="_blank" class="btn btn-primary">Instagram</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="cards-wrapper">
+								<div class="card">
+
+									<div class="image-wrapper">
+									<img src="images/greenplant.png" alt="green plant illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Green Plant</h5>
+										<p class="card-text">Part of a series of illustrated plants for a personal project, created in Illustrator in 2021.</p>
+										<a href="https://www.instagram.com/p/CXCqEoTK9mE/" target="_blank" class="btn btn-primary">Instagram</a>
+									</div>
+								</div>
+								<div class="card">
+
+									<div class="image-wrapper">
+									<img src="images/coconutplant.png" alt="coconut plant illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Coconut Plant</h5>
+										<p class="card-text">Part of a series of illustrated plants for a personal project, created in Illustrator in 2021.</p>
+										<a href="https://www.instagram.com/p/CXCo47YKWhX/" target="_blank" class="btn btn-primary">Instagram</a>
+									</div>
+								</div>
+								<div class="card">
+
+									<div class="image-wrapper">
+									<img src="images/umbrellaplant.png" alt="umbrella plant illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Umbrella Plant</h5>
+										<p class="card-text">Part of a series of illustrated plants for a personal project, created in Illustrator in 2021.</p>
+										<a href="https://www.instagram.com/p/CXCogpxK1X_/" target="_blank" class="btn btn-primary">Instagram</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="cards-wrapper">
+								<div class="card">
+
+									<div class="image-wrapper">
+									<img src="images/purplepassionplant.png" alt="purple passion plant illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Purple Passion Plant</h5>
+										<p class="card-text">Part of a series of illustrated plants for a personal project, created in Illustrator in 2021.</p>
+										<a href="https://www.instagram.com/p/CXCobpKqyxA/" target="_blank" class="btn btn-primary">Instagram</a>
+									</div>
+								</div>
+								<div class="card" >
+
+									<div class="image-wrapper">
+									<img src="images/snakeplant.png" alt="snake plant illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Snake Plant</h5>
+										<p class="card-text">Part of a series of illustrated plants for a personal project, created in Illustrator in 2021.</p>
+										<a href="https://www.instagram.com/p/CXCpEcHqFyg/" target="_blank" class="btn btn-primary">Instagram</a>
+									</div>
+								</div>
+								<div class="card">
+
+									<div class="image-wrapper">
+									<img src="images/3plants.png" alt="...">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Card title</h5>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" target="_blank" class="btn btn-primary">Instagram</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+
+
+			</div>
+
+			<!--Webdesign-->
+
+			<div class="row bg-charcoal text-primary" id="webdesign">
+				<div class="webdesign">
+
+					<div class="p-5 text-end">
+						<h1> WEB DESIGN </h1>
+						<hr/>
+					</div>
+
+					<div class="carouselcontainer">
+					<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-bs-interval="10000">
+								<img src="images/undercover.png" class="d-block w-100" alt="...">
+								<div class="slidetext bg-primary carousel-caption d-none d-md-block">
+									<h3>Just In Case</h3>
+									<p>The was one of the first projects I took part in, made to combine all of our newly learned abilities from the study.
+									This means using design, HTML and CSS, to form a mobile first, responsive site that would sell phone covers.
+									<br><br>This project rotated around understanding our audience while making a concept for selling phone covers. Today you can hardly avoid giving your child a phone in their hand, which they quickly destroy as
+									soon as you turn your back.
+									Therefore we chose to market our project to two target groups, children and parents,
+									where we tried to give parents the opportunity to save money in the long run,
+									and children the opportunity to keep their phones at hand in a stylish and colorful manner.</p>
+
+									<div class="mx-5 mt-3 mb-5">
+										<a href="http://shemesh.dk/undercover/" target="_blank"><input type="button" value="See here" /></a></div>
+								</div>
+							</div>
+							<div class="carousel-item" data-bs-interval="10000">
+								<img src="images/urbangarden.png" class="d-block w-100" alt="...">
+								<div class="slidetext bg-primary carousel-caption d-none d-md-block">
+									<h3>Urban Garden</h3>
+									<p>This project was about using wordpress for the first time, to create our own webshop for selling T-shirts, that we also designed as part of the project.
+										<br><br>This project was about understanding ecommerce and SEO, and using wordpress along with its plugins to broaden our horizons in what
+										and how we can create a website. In this project there was a lot of designing. Unfortunately there is some trouble with the upload, and currently cant show the full example.
+									</p>
+
+									<div class="mx-5 mt-3 mb-5">
+										<a href="http://highhobbit.dk/marittima/index.html" target="_blank"><input type="button" value="See here" /></a></div>
+
+								</div>
+							</div>
+							<div class="carousel-item" data-bs-interval="10000">
+								<img src="images/marittima.png" class="d-block w-100" alt="...">
+								<div class="slidetext bg-primary carousel-caption d-none d-md-block">
+									<h3>Marittima</h3>
+									<p>In this exciting project we had to use bootstrap and sass to create a website that would then be used as a real pitch for a real client
+										<br><br>This project had us use all of our skills, to create a complete digital identity for our clients new business. This project included a style guide, logo, website, video product and so much more.
+									</p>
+
+									<div class="mx-5 mt-3 mb-5">
+										<a href="http://shemesh.dk/Marittima/" target="_blank"><input type="button" value="See here" /></a></div>
+
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+
+				</div>
+			</div>
+
+
+			<!--Logo design-->
+
+			<div class="row bg-primary text-charcoal" id="logodesign">
+
+					<div class="p-5 text-end">
+						<h1> LOGO DESIGN </h1>
+						<hr/>
+					</div>
+
+				<div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="cards-wrapper">
+								<div class="card">
+
+									<div class="image-wrapper">
+										<img src="images/badmintonlogo.png" alt="badminton logo illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Badminton Logo</h5>
+										<p class="card-text">Made in Illustrator 2021.</p>
+									</div>
+								</div>
+								<div class="card">
+
+									<div class="image-wrapper">
+										<img src="images/marittimalogo.png" alt="Marittima logo illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Marittima Logo</h5>
+										<p class="card-text">Made for Marius Mortensen in Illustrator, 2022.</p>
+									</div>
+								</div>
+								<div class="card">
+
+									<div class="image-wrapper">
+										<img src="images/urbangardenlogo.png" alt="Urban Garden illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Urban Garden</h5>
+										<p class="card-text">Made in Illustrator 2022.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="cards-wrapper">
+								<div class="card">
+
+									<div class="image-wrapper">
+										<img src="images/glocalearlogo.png" alt="Glocal Ear logo illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Glocal Ear Logo</h5>
+										<p class="card-text">Podcast logo design, made in Illustrator 2022.</p>
+									</div>
+								</div>
+								<div class="card">
+
+									<div class="image-wrapper">
+										<img src="images/teesandtreeslogo.png" alt="Tees and Trees logo">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">Tees and Trees Logo</h5>
+										<p class="card-text">Concept for a environmentally aware Tshirt shop, made in Illustrator 2022.</p>
+									</div>
+								</div>
+								<div class="card">
+
+									<div class="image-wrapper">
+										<img src="images/shemesh_logo.png" alt="shemesh logo illustration">
+									</div>
+
+									<div class="card-body">
+										<h5 class="card-title">my logo</h5>
+										<p class="card-text">Designed in Illustrator 2021.</p>
+									</div>
+								</div>
+							</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+
+
+
+
+			<!--Contact forum-->
+			<div class="row bg-brown text-primary" id="contact">
+				<div class="contactform">
+
+					<div class="p-5 text-end">
+						<h1> CONTACT </h1>
+						<hr/>
+					</div>
+
+
+					<div class="row">
+
+						<div class="col-md-6 tablet">
+							<img src="images/instagramfeed.png" alt="instagram feed">
+						</div>
+
+					<div class="col-md-6 contactform">
+						<form action="action_page.php">
+
+							<label for="fname">First Name</label>
+							<input type="text" id="fname" name="fullname" placeholder="Your name..">
+
+							<label for="email">Email</label>
+							<input type="text" id="email" name="email" placeholder="Your Email..">
+
+							<label for="subject">Subject</label>
+							<input type="text" id="subject" name="subject" placeholder="What's this regarding..">
+
+							<label for="message">Message</label>
+							<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+							<input type="submit" value="Send">
+
+						</form>
+					</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!--footer contact me-->
+
+			<div class="contactme row bg-secondary text-primary">
+
+				<div class="col text-center">
+					<h3 class="mt-5 mb-5 mx-5" id="contact"><a href="tel:+45-422-299-70p123" id="phone">+45 42 22 90 70</a></h3>
+
+				</div>
+				<div class="col text-center">
+					<h3 class="mt-5 mb-5 mx-5"><a href = "mailto: shemesh@outlook.dk" id="mail">shemesh@outlook.dk</a></h3>
+
+				</div>
+				<div class="col text-center">
+					<h3 class="mt-5 mb-5 mx-5"><a href="#" id="top">back to top</a></h3>
+
+				</div>
+
+			</div>
+
+
+			<!--footer-->
+			<div class="footer">
+
+				<div class="row bg-primary text-secondary">
+
+					<div class="col text-center" id="bye">
+						<h1 class="bye p-5">...have a great day!</h1>
+					</div>
+
+					<!--icons-->
+
+
+					<div class="row">
+
+						<div class="col text-center">
+
+							<div><a class="icons" href="https://www.facebook.com/thechisai" target="_blank">
+								<div><i class="fab fa-facebook fa-3x"></i></div></a></div>
+						</div>
+
+						<div class="col text-center">
+
+							<div><a class="icons" href="https://www.instagram.com/shemesh_design/" target="_blank">
+								<div><i class="fab fa-instagram fa-3x"></i></div></a></div>
+
+
+						</div>
+
+						<div class="col text-center">
+
+							<div><a class="icons" href="https://www.linkedin.com/in/sita-shemesh-7075ab204/" target="_blank">
+								<div><i class="fab fa-linkedin fa-3x"></i></div></a></div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
